@@ -1,1 +1,0 @@
-from CVMFeeder import CVM
