@@ -259,3 +259,6 @@ class CVM():
                 aux["protocol"] = row.id.split("_")[5]
                 df = pandas.concat([df, aux], axis = 0)
         return df.reset_index(drop = True)
+    
+if __name__ == "__main__":
+    pass
